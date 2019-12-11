@@ -14,7 +14,7 @@ def  oxford_comma(array)
         result << ", "
         
       end
-      return result
     end
   end
+  return result
 end
