@@ -4,8 +4,14 @@ def  oxford_comma(array)
   elsif(array.length == 2)
     return array.join(" and ")
   else
+    result = ""
     array.length.times do |idx|
-      if(idx + 1 == )
+      if(idx + 1 == array.length)
+        result << ", and "
+      else
+        result << ", "
+      end
+      return result
     end
   end
 end
