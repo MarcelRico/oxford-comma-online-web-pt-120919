@@ -10,8 +10,9 @@ def  oxford_comma(array)
         result << ", and "
         result << array[idx]
       else
-        result << ", "
         result << array[idx]
+        result << ", "
+        
       end
       return result
     end
