@@ -8,8 +8,10 @@ def  oxford_comma(array)
     array.length.times do |idx|
       if(idx + 1 == array.length)
         result << ", and "
+        result << array[idx]
       else
         result << ", "
+        result << array[idx]
       end
       return result
     end
